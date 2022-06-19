@@ -1,0 +1,36 @@
+.main {
+  flex: 1;
+  color: #FFF;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.25rem;
+}
+
+.icon {
+  width: 4.375rem;
+  height: 4.375rem;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-top: .3125rem;
+}
+
+.info {
+  font-size: .75rem;
+  margin-top: .3125rem;
+}
+
+.yourImc {
+  font-size: 1.0625rem;
+  margin: .625rem 0 3.125rem 0;
+}
